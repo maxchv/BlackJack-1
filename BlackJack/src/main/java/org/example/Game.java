@@ -12,12 +12,12 @@ public class Game {
     public final static int LIMIT_FOR_DEALER = 17;
     public final static int WINNER_SCORE = 21;
     public final static int GAME_OVER = 22;
-    protected int indexCount = 2;
+    protected int indexCount = 2; // навіщо протектед?
 
-    Deck deck = new Deck();
-    Players player = new Players();
-    Players dealer = new Players();
-    Scanner scanner = new Scanner(System.in);
+    Deck deck = new Deck(); // private?
+    Players player = new Players(); // private?
+    Players dealer = new Players(); // private?
+    Scanner scanner = new Scanner(System.in); // private?
 
     public Game(String name) {
         this.name = name;
