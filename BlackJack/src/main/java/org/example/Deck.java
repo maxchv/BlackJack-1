@@ -9,7 +9,7 @@ public class Deck implements Iterable<Deck.Card> {
     private final static int DECK52 = 52;
     private final static int INDEX52FINISH = 12;
     private final static int INDEX52START = 0;
-    Card[] deck;
+    Card[] deck; // private??
 
     public Deck() {
         deck = new Card[0];
@@ -27,7 +27,7 @@ public class Deck implements Iterable<Deck.Card> {
         private final String DIGNITY;
         private final int LEVEL;
         private int weightCount;
-        Suite suite;
+        Suite suite; // private ??
 
         public Card(String dignity, int level, int weightCount, Suite suite) {
             this.DIGNITY = dignity;
