@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 import static org.example.Game.*;
 
-public class Players {
+public class Players { // чому Players а не Player?
     private int score;
-    Deck.Card[] cards;
+    Deck.Card[] cards; // private??
 
     public Players() {
         this.score = 0;
